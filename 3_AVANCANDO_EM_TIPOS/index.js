@@ -33,4 +33,13 @@ setTimeout(function () {
     const sallary = 1000;
     //console.log(parseFloat(sallary)) //metodo utilizado para converter string em float, não number
     console.log(sallary);
-}, 2000);
+}, 20);
+// 7 - Tipos de objeto
+function passCordinates(coord) {
+    console.log("X cordinates: " + coord.x);
+    console.log("Y cordinates: " + coord.y);
+}
+const objCoord = { x: 329, y: 84.2 };
+passCordinates(objCoord);
+// passCordinates({nome: 1, sobrenome: 2})
+const pessoaObj = { nome: "Olívio", sobrenome: "Neto" };
