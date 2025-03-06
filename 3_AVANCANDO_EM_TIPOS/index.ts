@@ -47,3 +47,10 @@ function greeting(name: string): string{
 }
 
 console.log(greeting("Olívio"))
+
+// 6 - funções anônimas 
+setTimeout(function() {
+    const sallary: number = 1000
+    //console.log(parseFloat(sallary)) //metodo utilizado para converter string em float, não number
+    console.log(sallary)
+}, 2000);
